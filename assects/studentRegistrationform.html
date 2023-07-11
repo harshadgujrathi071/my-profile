@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    h2 {
+      font-family: "Roboto", sans-serif;
+      color: blueviolet;
+
+       }
+    label {
+      font-family: "Poppins", sans-serif;
+
+         }
+         body{
+          background-color: bisque;
+         }
+    input[type="text,No,email"] {
+      border-radius: 10px;
+      padding: 7px;
+    }
+  </style>
+
+  <body>
+    <fieldset>
+      <legend><h2>Student Registration Form</h2></legend>
+      <table>
+        <tbody>
+          <form>
+            <tr>
+              <td>
+                <label> First Name:</label>
+              </td>
+              <td>
+                <input type="text" autofocus required placeholder />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label> Last Name:</label>
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Mobile No:</label></td>
+              <td><input type="number" /></td>
+            </tr>
+            <tr>
+              <td><label> Email Address:</label></td>
+              <td><input type="email" /></td>
+            </tr>
+            <tr>
+              <td><label> Password:</label></td>
+              <td><input type="number" /></td>
+            </tr>
+            <tr>
+              <td><label> Graduation:</label></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td><label> Select Gender:</label></td>
+              <td>
+                <input type="radio" name="gender" /> <label> Male</label>
+                <input type="radio" name="gender" /> <label> Female </label>
+                <input type="radio" name="gender" />
+                <label> Transgender </label>
+              </td>
+            </tr>
+            <tr>
+              <td><label> Maritial Status:</label></td>
+              <td>
+                <input type="radio" name="Yes" /> <label> Yes </label>
+                <input type="radio" name="No" /> <label> No </label>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Tools & Technology Stack:</label></td>
+              <td>
+                <input type="checkbox" /> <label> Angular </label>
+                <input type="checkbox" /> <label> React </label>
+                <input type="checkbox" /> <label> Python </label>
+                <input type="checkbox" /> <label> Java </label>
+                <input type="checkbox" /> <label> Jenkin </label>
+                <input type="checkbox" /> <label> GIT </label>
+                <input type="checkbox" /> <label> Database </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label> Designation:</label>
+              </td>
+              <td>
+                <select>
+                  <option value="UI Developer">UI Developer</option>
+                  <option value="Backend Developer">Backend Developer</option>
+                  <option value="Full Stack">Full Stack</option>
+                  <option value="DevOps Engineer">DevOps Engineer</option>
+                  <option value="Tester">Tester</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label> Country:</label></td>
+              <td><input type="text" autofocus placeholder="India" /></td>
+            </tr>
+            <tr>
+              <td><label> Date Of Birth:</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td><label>Pass Of Year:</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <td><label> Permanent Address:</label></td>
+            <td><textarea cols="50" rows="7"></textarea></td>
+            <tr>
+              <td><button type="submit">Submit</button></td>
+              <td><button type="reset">Clear</button></td>
+            </tr>
+          </form>
+        </tbody>
+      </table>
+    </fieldset>
+  </body>
+</html>
